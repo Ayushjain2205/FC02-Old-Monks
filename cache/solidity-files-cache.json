@@ -847,10 +847,10 @@
         "console"
       ]
     },
-    "D:\\hackathon-projects\\c-free\\contracts\\Token.sol": {
-      "lastModificationDate": 1654845098055,
-      "contentHash": "dd09305c3d409b5defb02540adcc9faa",
-      "sourceName": "contracts/Token.sol",
+    "D:\\hackathon-projects\\c-free\\contracts\\CarbonFree.sol": {
+      "lastModificationDate": 1654848121646,
+      "contentHash": "b8d41262ab38ee78b256353012e9a4bc",
+      "sourceName": "contracts/CarbonFree.sol",
       "solcConfig": {
         "version": "0.8.4",
         "settings": {
@@ -874,12 +874,19 @@
           }
         }
       },
-      "imports": [],
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol",
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "@openzeppelin/contracts/token/ERC20/extensions/draft-ERC20Permit.sol",
+        "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        "@openzeppelin/contracts/token/ERC20/extensions/ERC20FlashMint.sol"
+      ],
       "versionPragmas": [
         "^0.8.4"
       ],
       "artifacts": [
-        "Token"
+        "CarbonFree"
       ]
     }
   }
